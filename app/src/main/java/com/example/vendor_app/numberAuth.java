@@ -2,6 +2,7 @@ package com.example.vendor_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,9 +41,13 @@ private CountryCodePicker ccp;
 
 
     public void DisplayMessage(View view) {
-        Toast myToast =   Toast.makeText(this,"data save",Toast.LENGTH_LONG);
+      //  Toast myToast =   Toast.makeText(this,"data save",Toast.LENGTH_LONG);
 
-        myToast.show();
+       // myToast.show();
+
+     Intent intent = new Intent(this,dropdown_List.class);
+     startActivity(intent);
+
 
     }
 }
