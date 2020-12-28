@@ -31,6 +31,7 @@ private CountryCodePicker ccp;
     private void init(){
         ccp =findViewById(R.id.ccp);
         edit_text = findViewById(R.id.edit_text);
+
         savePhoneNumber = findViewById(R.id.savePhoneNumber);
        // getPhoneNumber =findViewById(R.id.getPhoneNumber);
 
