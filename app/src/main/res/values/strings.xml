@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vendor_App</string>
+    <string name="log_in">लॉग इन करें</string>
+    <string name="name"><u> >नाम</u></string>
+    <string name="phone_auth">कृपया सत्यापन के लिए अपना फ़ोन नंबर दर्ज़ करे</string>
+    <string name="hint_phone_number">फ़ोन नंबर</string>
+    <string name="conti_button">जारी रखें</string>
+
+</resources>
