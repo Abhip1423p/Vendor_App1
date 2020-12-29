@@ -4,24 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b3"
-
-    tools:context=".dropdown_List">
-
-    <Spinner
+    android:background="@drawable/b1"
+    tools:context=".thanks_for">
 
 
-        android:padding="30dp"
-        android:id="@+id/spinner"
-        android:layout_width="339dp"
-        android:layout_height="476dp"
 
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="314dp"
+     android:text="आप की प्रतिक्रिया दर्ज़ की गई है, आपके सहयोग के लिऐ धन्यवाद"
+
+        android:textSize="50dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
-       />
-
-
+        app:layout_constraintVertical_bias="0.465"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

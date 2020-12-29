@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vendor_app">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".garbageCollection"></activity>
+        <activity android:name=".thanks_for" />
+        <activity android:name=".confirmPage" />
+        <activity android:name=".destination_R" />
         <activity android:name=".dropdown_List" />
         <activity android:name=".numberAuth" />
         <activity android:name=".MainActivity">
