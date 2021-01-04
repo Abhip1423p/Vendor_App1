@@ -4,24 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b3"
+    android:background="@drawable/b1"
 
     tools:context=".dropdown_List">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="अपने वकलप चुने"
+
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="139dp" />
+
     <Spinner
 
-
-        android:padding="30dp"
         android:id="@+id/spinner"
-        android:layout_width="339dp"
-        android:layout_height="476dp"
+        android:layout_width="176dp"
+        android:layout_height="81dp"
+        android:padding="30dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-       />
+        tools:layout_editor_absoluteX="204dp" />
 
+    <Button
+        android:id="@+id/d_button"
+        android:layout_width="119dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btn_back"
+        android:onClick="d_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+     android:text="ok"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

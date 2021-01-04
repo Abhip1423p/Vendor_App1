@@ -41,10 +41,10 @@ android:background="@drawable/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
-        android:onClick="NumberAuth"/>
+        android:onClick="loginButton"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/ed_PersonName"
         android:layout_width="330dp"
         android:layout_height="63dp"
 
@@ -61,6 +61,7 @@ android:background="@drawable/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.vendor_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class destination_R extends AppCompatActivity {
 
@@ -11,4 +12,5 @@ public class destination_R extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_destination__r);
     }
+
 }
